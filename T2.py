@@ -17,7 +17,6 @@ def crear_matriz(n):
 
 def contarvoca(matriz):
     n = len(matriz)
-    # Caso base: una sola fila → contar directamente
     if n == 1:
         contador = 0
         for palabra in matriz[0]:
